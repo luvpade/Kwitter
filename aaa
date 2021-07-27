@@ -1,0 +1,14 @@
+var firebaseConfig = {
+      apiKey: "AIzaSyAsjIU_gy7MXAlEZRxW5aPhnPaZyl6SvUU",
+      authDomain: "kwittert-75951.firebaseapp.com",
+      projectId: "kwittert-75951",
+      storageBucket: "kwittert-75951.appspot.com",
+      messagingSenderId: "398703296717",
+      appId: "1:398703296717:web:8a5ccd5a96ffc4372da984",
+      measurementId: "G-DWETB8QNLD"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    user_name=localStorage.getItem("user_name");
+
+    document.getElementById("user_name").innerHTML="welcome"+ user_name + "!";
